@@ -1,0 +1,115 @@
+.account-form-holder {
+  padding: 40px;
+}
+
+.account-form-holder h1 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  font-family: "Rubik", sans-serif;
+}
+
+.account-form-holder p {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  color: #828282;
+}
+
+.account-form-holder form {
+  width: 70%;
+  margin: 30px 0px 0px 0px;
+}
+.account-form-holder label {
+  font-size: 16px;
+  line-height: 28px;
+  color: #666666;
+  margin-bottom: 5px;
+  font-family: "Rubik", sans-serif;
+}
+.dateinput {
+  position: relative;
+}
+
+.dateinput i {
+  position: absolute;
+  right: 30px;
+  top: 15px;
+  color: #c43539;
+}
+.existingaccount {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.5px;
+  margin-left: 100px;
+  color: #bdbdbd;
+  font-family: "Rubik", sans-serif;
+  margin-top: 10px;
+}
+
+.existingaccount a {
+  text-decoration: none;
+}
+.existingaccountlogin {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.5px;
+  color: #c43539;
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+.radioinput-holder {
+  display: flex;
+}
+.maleradio {
+  border: 1px solid rgba(137, 162, 199, 0.3);
+  width: 220px;
+  height: 56px;
+  padding: 0.5em;
+  -webkit-appearance: none;
+  background: url(../../asset/img/Male-emoji.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 12px;
+}
+
+.femaleradio {
+  border: 1px solid rgba(137, 162, 199, 0.3);
+  width: 220px;
+  height: 56px;
+  padding: 0.5em;
+  -webkit-appearance: none;
+  background: url(../../asset/img/Female-emoji.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+input[type="radio"]:checked {
+  background: red;
+  background-size: 9px 9px;
+}
+
+input[type="radio"]:focus {
+  outline-color: transparent;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .account-form-holder form {
+    width: 100%;
+  }
+  .account-form-holder {
+    padding: 10px;
+  }
+  .maleradio,
+  .femaleradio {
+    width: 150px;
+  }
+}

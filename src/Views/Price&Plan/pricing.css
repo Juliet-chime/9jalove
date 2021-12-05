@@ -1,0 +1,96 @@
+.price-row {
+  padding: 60px 0px;
+}
+.price-row h1 {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: 0.02em;
+}
+
+.price-row p {
+  max-width: 600px;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  margin: auto;
+
+  color: #737171;
+}
+.basic-month-holder {
+  width: 360px;
+  padding: 15px 0px;
+  background: #ffffff;
+  box-shadow: 4px 8px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 8px;
+}
+.basic-month {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #cccccc;
+  padding: 10px;
+}
+.basic h4 {
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 0.02em;
+}
+.basic p {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
+.month {
+  background: #eefbf2;
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+.month h4 {
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 0.02em;
+}
+.month p {
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #616060;
+  padding-left: 20px;
+}
+
+.basic-text-holder {
+  padding: 20px 10px;
+}
+.basic-text {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.basic-text p {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #4a4a4a;
+}
+
+.basic-text-btn {
+  width: 328px;
+  margin: auto;
+}
+
+.basic-month-holder-2 {
+  background: #252641;
+  box-shadow: 20px 30px 100px rgba(0, 0, 0, 0.1);
+}
+
+.month2 {
+  background: #464881;
+}
+
+@media only screen and (max-width: 1024px) {
+  .basic-month-holder {
+    width: 100%;
+  }
+}

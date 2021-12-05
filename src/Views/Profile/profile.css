@@ -1,0 +1,75 @@
+.profiledisplayholder {
+  border-bottom: 1px solid #abaaaa;
+  display: flex;
+  padding: 30px 0px;
+}
+
+.profiledisplayholder h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 160%;
+}
+
+.changepic {
+  margin-top: 100px;
+  height: 50px;
+  width: 266px;
+  border: 1px solid #c43539;
+  border-radius: 50px;
+  text-align: center;
+  padding: 10px 0px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #c43539;
+}
+
+.profile-form-holder {
+  padding: 15px 0px;
+}
+
+.profile-form-holder label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  margin: 10px 0px;
+}
+
+.profile-input-holder {
+  width: 500px;
+  position: relative;
+}
+.profile-input-holder i {
+  position: absolute;
+  right: 20px;
+  top: 14px;
+  color: #828282;
+}
+
+.profile-button {
+  width: 266px;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  min-height: 200px;
+  border: 1px solid #f1f1f1;
+  border-radius: 8px;
+  background: transparent;
+  padding: 30px 20px 0px 20px;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .profile-input-holder {
+    width: 100%;
+  }
+
+  .profile-button {
+    margin: auto;
+  }
+}

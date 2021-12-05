@@ -1,0 +1,27 @@
+.loginaccount {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.5px;
+  margin-left: 130px;
+  color: #bdbdbd;
+  font-family: "Rubik", sans-serif;
+  margin-top: 10px;
+}
+
+.loginaccount a {
+  text-decoration: none;
+}
+.loginaccount-account {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.5px;
+  color: #c43539;
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+@media only screen and (max-width: 1024px) {
+  .loginaccount {
+    margin-left: 50px;
+  }
+}

@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* .sidebarholder {
+  flex: 0.8;
+  padding: 20px;
+  display: block;
+  position: sticky;
+  top: 0;
+  background: #eaebf2;
+} */
+
+.side-nav {
+  padding: 20px;
+  float: left;
+  height: 100%;
+  width: 290px;
+  background-color: #eaebf2;
+  color: #333;
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  transform: translateX(0);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: 0.3s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  z-index: 9999999;
+}
+.sidenav__close-icon {
+  text-align: end;
+  visibility: hidden;
+}
+
+.sidenav__close-icon i {
+  font-size: 24px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.profileimg-holder {
+  display: flex;
+}
+
+.profiletext {
+  margin-left: 20px;
+  margin-top: 4px;
+}
+
+.profileimg-holder h3 {
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.profileimg-holder p {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 4px;
+}
+
+.profilelist-holder {
+  margin-top: 20px;
+}
+
+.profilelist-holder li {
+  list-style: none;
+  margin-left: -28px;
+}
+
+.nav-link {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  color: #656565;
+  transition: all 2s linear;
+}
+.nav-link:hover {
+  color: #c43539;
+  font-size: 14px;
+}
+
+.profilelist-holder a.active {
+  background: #c43539;
+  border-radius: 8px;
+  color: white;
+}
+
+.fa {
+  padding-left: 5px;
+  font-size: 20px;
+}
+.profilelist-holder a.active .fa {
+  color: #c43539;
+  background: white;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+.chatholder {
+  border-bottom: 1px solid #b1b0b0;
+  padding: 15px 0px 30px 0px;
+}
+
+.chatholder h2 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  padding-bottom: 2px;
+  border-bottom: 1px solid rgba(177, 176, 176, 0.5);
+}
+
+.chat-profile {
+  display: flex;
+  margin: 9px 0px;
+}
+
+.chat-profile h5 {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+  color: #3f3e3e;
+}
+
+.chat-profile p {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+  margin-top: 12px;
+  background: #c43539;
+  border-radius: 8px;
+  height: 16px;
+  padding: 0px 15px;
+  color: #fff;
+  font-size: 9px;
+}
+
+.sidebar-logout {
+  padding: 30px 10px 0px 0px;
+  display: flex;
+}
+
+.sidebar-logout h3 {
+  font-size: 16px;
+  line-height: 160%;
+  color: #656565;
+  margin-left: 30px;
+}
+#contents {
+  position: relative;
+  transition: 0.3s;
+  margin-left: 290px;
+}
+
+.bar-icon {
+  margin-left: 20px;
+  display: none;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .side-nav {
+    display: block;
+    width: 100%;
+  }
+  #contents {
+    margin-left: 0px;
+  }
+  .hidesidebar {
+    display: none;
+  }
+
+  .showsidebar {
+    display: block;
+  }
+  .sidenav__close-icon {
+    visibility: visible;
+  }
+  .bar-icon {
+    margin-left: 20px;
+    display: block;
+    margin-top: 20px;
+  }
+}

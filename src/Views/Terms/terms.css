@@ -1,0 +1,47 @@
+.terms {
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.terms h1 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+}
+
+.terms-text-holder {
+  padding: 10px 0px 100px 0px;
+}
+
+.terms-text h3 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  letter-spacing: 0.02em;
+  color: #c43539;
+  margin-bottom: 15px;
+}
+
+.terms-text p {
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #555555;
+  max-width: 1200px;
+  margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .terms-text p {
+    padding: 12px;
+    font-size: 15px;
+  }
+  .terms-text h3 {
+    padding: 12px;
+    font-size: 24px;
+  }
+  .terms h1 {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,93 @@
+.chat-online-display{
+    display: flex;
+}
+
+.chat-online-display h2{
+    font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+margin-left: 10px;
+
+}
+
+.chat-online-display p{
+    font-size: 12px;
+    line-height: 150%;
+    color: #828282;margin-left: 8px;
+}
+
+.chatmsgholder{
+padding: 80px 0px ;
+}
+
+.chatmsg{
+    padding: 10px;
+    /* max-width: 278px; */
+    background: #eaeaea;
+border-radius: 16px 16px 16px 0px;
+    }
+
+    .chattime{
+        color: #407BFF;
+        margin-top: 5px;
+    }
+
+    .typing-msg-holder{
+        margin-right: -10px;
+        margin-left: -10px;;
+        margin-top: 60px;
+padding: 10px 0px;
+background: #FFFFFF;
+box-shadow: 0px -4px 30px rgba(0, 0, 0, 0.06);
+    }
+    .typing-msg{
+        display: flex;
+        position: relative;
+        justify-content: space-between;
+    }
+
+    .typing-input{
+        width: 1000px;
+    }
+
+    .pin{
+        position: absolute;
+        left: 140px;
+        margin: 0px 10px;
+        top: 10px;
+    }
+
+    .emoji{
+        position: absolute;
+        right: 30px;
+        top: 10px;
+    }
+
+    .chatinput::placeholder{
+        font-size: 16px;
+        padding-left: 30px;
+    }
+
+    @media only screen and (max-width: 1024px){
+        .chatinput::placeholder{
+            font-size: 12px;
+            padding-left: 20px;
+        }
+
+        .pin{
+            left: 80px;
+        }
+    
+        .emoji{
+            right: 20px;
+        }
+
+        .typing-input{
+            margin-left: 10px;
+        }
+
+        .gallery{
+            margin-left: 10px;
+        }
+    }
+    

@@ -1,0 +1,256 @@
+.chatside-nav {
+  /* padding: 20px; */
+  float: left;
+  /* height: 100%; */
+  width: 400px;
+  background-color: #eaebf2;
+  color: #333;
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  transform: translateX(0);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: 0.3s;
+  /* position: fixed; */
+  top: 0;
+  /* left: 0; */
+  /* overflow: auto; */
+  /* z-index: 9999999; */
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  margin: -22px;
+}
+
+.setting-holder {
+  width: 90px;
+  padding: 20vh 0px;
+  background: #eaebf2;
+}
+
+.active-holder {
+  width: 310px;
+  padding: 20px;
+  background: #f6f7f9;
+}
+
+.setting-holder li {
+  list-style: none;
+  margin-bottom: 25px;
+}
+
+.setting-holder a {
+  list-style: none;
+  color: #656565;
+}
+
+.setting-holder a.active {
+  color: #c43539;
+}
+.chat-logout {
+  margin-top: 50vh;
+  margin-left: 30px;
+}
+
+.times {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  visibility: hidden;
+}
+
+.chat-imgprofile {
+  text-align: center;
+}
+
+.chat-imgprofile h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 160%;
+}
+
+.chat-imgprofile p {
+  font-size: 16px;
+  line-height: 160%;
+  color: #626262;
+}
+
+.activeusers-holder {
+  margin: 50px 0px 10px 0px;
+}
+.activeusers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.activeusers h3 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  color: #535353;
+}
+
+.activeusers p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #c43539;
+  width: 33px;
+  height: 27px;
+  background: rgba(196, 53, 57, 0.2);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.activeuser-img-holder {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.activeuser-img {
+  position: relative;
+}
+
+.activeuser-img p {
+  width: 11px;
+  height: 11px;
+  background: #2eab7e;
+  border-radius: 50%;
+  position: absolute;
+  right: -1px;
+  top: 25px;
+}
+
+.last-chat h1 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  color: #535353;
+  margin-bottom: 10px;
+}
+
+.chat-input {
+  width: 266px;
+  position: relative;
+}
+.chat-input p {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-size: 14px;
+  line-height: 160%;
+  color: #7e7e7e;
+}
+/* .activechat-holder{
+        border: solid;
+    } */
+.activechat-holder li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.activechat-holder a {
+  text-decoration: none;
+}
+
+/* .activechat .active{
+        background: #521978;
+        border-radius: 4px;
+    } */
+.activechat {
+  display: flex;
+  color: black;
+  margin-top: 20px;
+}
+.activechat div {
+  margin-left: 20px;
+}
+.activechat h2 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.activechat p {
+  font-size: 10px;
+  line-height: 150%;
+}
+
+.activechat h4 {
+  font-size: 10px;
+  line-height: 150%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+#chat-contents {
+  position: relative;
+  transition: 0.3s;
+  margin-left: 378px;
+  /* border: solid; */
+}
+
+@media only screen and (max-width: 1024px) {
+  .chatside-nav {
+    width: 108%;
+    display: flex;
+  }
+
+  .setting-holder {
+    width: 100%;
+    padding: 5vh 0px;
+    background: #eaebf2;
+  }
+
+  .chat-logout {
+    margin-top: 8vh;
+    margin-left: 30px;
+  }
+
+  .active-holder {
+    width: 100%;
+    padding: 20px;
+    background: #f6f7f9;
+  }
+
+  .times {
+    visibility: visible;
+  }
+
+  .activeusers {
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+  }
+  .activeuser-img-holder {
+    margin-top: 15px;
+    display: flex;
+    /* justify-content: none; */
+    flex-wrap: wrap;
+  }
+
+  #chat-contents {
+    position: relative;
+    transition: 0.3s;
+    margin-left: 0px;
+    /* border: solid; */
+  }
+
+  .chat-input {
+    width: 100%;
+    position: relative;
+  }
+
+  .activechat-holder {
+    padding: 5px;
+  }
+  .last-chat {
+    padding: 5px;
+  }
+}

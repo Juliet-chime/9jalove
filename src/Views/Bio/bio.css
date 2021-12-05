@@ -1,0 +1,53 @@
+.bio {
+  padding: 20vh 0px;
+}
+
+.bio-name {
+  font-family: "Poppins", sans-serif;
+}
+
+.bio-name h1 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 160%;
+  margin-top: -40px;
+}
+
+.bio-btn {
+  width: 205px;
+  margin-top: 16px;
+}
+
+.bio-details {
+  font-family: "Poppins", sans-serif;
+}
+
+.bio-details h1 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 160%;
+  margin: 10px 0px;
+}
+
+.bio-details p {
+  max-width: 480px;
+  font-size: 16px;
+  line-height: 160%;
+  color: #757575;
+}
+
+.bio-details h2 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  margin: 40px 0px 5px 0px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .bio-details h1 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 160%;
+    margin: 50px 0px 10px 0px;
+  }
+}

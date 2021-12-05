@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* 
+font-family: 'Poppins', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&family=Poppins:wght@600&display=swap');
+
+/* font-family: 'Libre Franklin', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+/* font-family: 'Nunito Sans', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+/* font-family: 'Rubik', sans-serif; */
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0 !important;
+  font-size: 14px;
+  scroll-behavior:smooth;
+}
+
+body {
+    width: 100%;
+   font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  margin: 0px;
+  background-color: #E5E5E5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0px;
+}

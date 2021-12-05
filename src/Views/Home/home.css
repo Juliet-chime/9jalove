@@ -1,0 +1,265 @@
+.banner {
+  background: url(../../asset/img/header-bg.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 110px 0px;
+}
+
+.banner h4 {
+  max-width: 600px;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 131.5%;
+  font-family: "Libre Franklin", sans-serif;
+  letter-spacing: 0.015em;
+  color: #2f327d;
+  margin-bottom: 10px;
+}
+
+.banner p {
+  font-size: 18px;
+  line-height: 180%;
+  color: #696984;
+  max-width: 700px;
+  margin-bottom: 10px;
+}
+
+.banner-btn {
+  width: 220px;
+}
+
+.offer-intro {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  padding: 20px 0px;
+}
+
+.offer-intro h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 180%;
+  color: #2f327d;
+}
+
+.offer-intro p {
+  max-width: 597px;
+  font-size: 16px;
+  line-height: 154%;
+  color: #696984;
+  margin: auto;
+}
+
+.offers {
+  width: 350px;
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.offers-icons1 {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #5b72ee;
+  box-shadow: 0px 10px 40px rgba(54, 61, 136, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: -50px;
+}
+.offericons-lightgreen {
+  background: #a49830;
+}
+
+.offericons-red {
+  background: #ee5b5b;
+}
+.offers h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #2f327d;
+  padding: 30px 0px 10px 0px;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.offers p {
+  max-width: 297px;
+  font-size: 16px;
+  line-height: 150%;
+  color: #696984;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+}
+.specialpackage {
+  padding: 50px 0px 100px 0px;
+}
+
+.sp-top-smallcircle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #33d9ef;
+  margin-left: 10px;
+}
+
+.specialpackage-imgholder {
+  position: relative;
+}
+
+.specialpackage-ost {
+  width: 550px;
+  z-index: 10;
+}
+
+.specialpackage-ost img {
+  border-radius: 20px;
+}
+
+.specialpackage-bigcircle {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background: #5b61eb;
+  position: absolute;
+  left: 240px;
+  bottom: -80px;
+  z-index: -10;
+}
+
+.specialpackage-smallcircle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #f56666;
+  position: absolute;
+  left: 200px;
+  bottom: -70px;
+}
+
+.specialpackage h1 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 160%;
+  font-family: "Poppins", sans-serif;
+  color: #c43539;
+  margin-bottom: 15px;
+}
+
+.sp-icon-text-holder {
+  display: flex;
+  margin-bottom: 15px;
+}
+.sp-icon {
+  width: 50px;
+  height: 50px;
+  background: #fbfbfb;
+  box-shadow: 0px 15px 44px rgba(13, 15, 28, 0.12);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sp-icon-text-holder p {
+  max-width: 443px;
+  font-size: 18px;
+  line-height: 150%;
+  color: #696984;
+  margin-left: 40px;
+}
+
+.testimonial-holder {
+  padding: 60px 0px;
+}
+.testimony {
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.2em;
+  color: #525596;
+  font-family: "Nunito Sans", sans-serif;
+  margin-bottom: 15px;
+}
+.testimonial-holder h2 {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  color: #2f327d;
+  font-family: "Nunito Sans", sans-serif;
+  margin-bottom: 10px;
+}
+
+.testimony-text {
+  font-size: 15px;
+  color: #696984;
+  font-family: "Poppins", sans-serif;
+}
+
+.group136 {
+  width: 550px;
+}
+
+/* .couple{
+    border: solid;
+} */
+
+@media only screen and (max-width: 1024px) {
+  .banner h4 {
+    font-size: 40px;
+    line-height: 131.5%;
+  }
+
+  .offer-intro h2 {
+    font-size: 30px;
+    line-height: 120%;
+  }
+
+  .offer-intro p {
+    max-width: 300px;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  .offers {
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .group136 {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 8px;
+  }
+
+  .specialpackage-ost {
+    width: 100%;
+  }
+
+  .specialpackage {
+    padding: 10px 0px 20px 0px;
+    margin-top: -40px;
+  }
+
+  .sp-icon {
+    width: 100%;
+  }
+  .specialpackage-bigcircle {
+    width: 100px;
+    height: 100px;
+    left: 150px;
+    bottom: -50px;
+  }
+  .specialpackage h1 {
+    font-size: 35px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+
+  .specialpackage-smallcircle {
+    left: 100px;
+    bottom: -50px;
+  }
+}
