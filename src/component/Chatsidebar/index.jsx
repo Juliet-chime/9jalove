@@ -13,12 +13,12 @@ const ChatSideBar = ({ children }) => {
   const [isMenuActive, setIsMenuActive] = useState(false);
 
   const openMenu = (e) => {
-    //e.stopPropagation();
+    // e.stopPropagation();
     setIsMenuActive(true);
   };
 
   const closeMenu = (e) => {
-    // e.preventDefault();
+    //  e.preventDefault();
     setIsMenuActive(false);
   };
   return (

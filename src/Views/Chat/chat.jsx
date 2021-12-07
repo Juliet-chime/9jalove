@@ -40,7 +40,7 @@ const Chat = () => {
 
         <section className="chatmsgholder">
         <div className="container">
-            <div className="row mb-5">
+            <div className="row">
                 <div className="col-md-4">
                     <div className="chatmsg">
                         <p>Amet minim mollit non deserunt ullamco est </p>
@@ -50,7 +50,7 @@ const Chat = () => {
                 <div className="col-md-6 offset-sm-1 offset-md-2"></div>
             </div>
 
-            <div className="row mb-5">
+            <div className="row">
                 <div className="col-md-4">
                 </div>
                 <div className="col-md-6 offset-sm-1 offset-md-2">
@@ -61,7 +61,7 @@ const Chat = () => {
                 </div>
             </div>
 
-            <div className="row mb-5">
+            <div className="row">
                 <div className="col-md-4">
                     <div className="chatmsg">
                         <p>Amet minim mollit non deserunt ullamco est </p>
