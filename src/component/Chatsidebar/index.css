@@ -1,7 +1,7 @@
 .chatside-nav {
   /* padding: 20px; */
   float: left;
-  height: 100vh;
+  height: 100%;
   width: 400px;
   background-color: #eaebf2;
   color: #333;
@@ -193,24 +193,40 @@
   position: relative;
   transition: 0.3s;
   margin-left: 378px;
-  height: 100vh;
+  height: 90%;
 }
+
+.showchatlink{
+  display: none;
+  margin-top: 20px;
+}
+
+.showchatlink ul{
+  display: flex;
+}
+
+.showchatlink li{
+ list-style:none;
+ margin-right: 20px;
+}
+
+.showchatlink a{
+ color: #656565;
+ font-size: 16px;
+ }
+
+ .showchatlink a:hover{
+ color: #c43539;
+ font-size: 13px;
+  }
 
 @media only screen and (max-width: 1024px) {
   .chatside-nav {
     width: 108%;
     display: flex;
   }
-
   .setting-holder {
-    width: 100%;
-    padding: 5vh 0px;
-    background: #eaebf2;
-  }
-
-  .chat-logout {
-    margin-top: 8vh;
-    margin-left: 30px;
+    display: none;
   }
 
   .active-holder {
@@ -252,5 +268,9 @@
   }
   .last-chat {
     padding: 5px;
+  }
+
+  .showchatlink{
+    display: block;
   }
 }

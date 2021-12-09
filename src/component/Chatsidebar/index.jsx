@@ -179,6 +179,28 @@ const ChatSideBar = ({ children }) => {
               </li>
             </ul>
           </div>
+
+          <div className="showchatlink">
+            <ul>
+              <li>
+                <Link to="/">
+                  <i className="fa fa-location-arrow"></i>
+                </Link>
+              </li>
+              <li>
+                <Link to="/" className="active">
+                  <i className="fa fa-envelope"></i>
+                </Link>
+              </li>
+              <li>
+                <Link to="/">
+                  {" "}
+                  <i className="fa fa-cog"></i>
+                </Link>
+              </li>
+            </ul>
+          </div>
+
         </div>
       </div>
       <div id="chat-contents">
